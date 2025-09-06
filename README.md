@@ -11,8 +11,11 @@ Team Members
 - Kyi Lei Aye
 
 ## Milestone 1. Data Exploration & Preprocessing
-### Data Loading and Cleaning
-#### There are 34 product categories, and each category contains two JSON files: one for reviews and one for metadata. Using the fsspec library, these JSON files were loaded from HuggingFace and read line by line. With the Pandas library, two DataFrames were created—one for reviews and one for metadata. All review files were consolidated into a single review DataFrame, and all metadata files into a single metadata DataFrame. The two DataFrames were then merged on the asin and parent_asin columns. This combined dataset enables retrieval of customer review content and supports subsequent data cleaning processes.
+### Data Loading 
+#### There are 34 product categories, and each category contains two JSON files: one for reviews and one for metadata. Using the fsspec library, these JSON files were loaded from HuggingFace and read line by line. With the Pandas library, two DataFrames were created—one for reviews and one for metadata. All review files were consolidated into a single review DataFrame, and all metadata files into a single metadata DataFrame. The two DataFrames were then merged on the asin and parent_asin columns. This combined dataset enables retrieval of customer review content and supports subsequent data cleaning processes. Since our first task is doing sentiment analysis on customer feedback review data to classify the good feedback or bad feedback, the relevant columns (rating, title, text, category) in the dataset were extracted.
+
+### Data Cleaning
+#### 
 
 ### Data Transformation
 #### Normalize text (lowercasing, lemmatization) and map star ratings to sentiment labels etc. …

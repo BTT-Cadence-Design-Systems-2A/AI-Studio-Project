@@ -1,5 +1,5 @@
 # Cadence-Design-Systems-2A-AI-Studio-Project
-#### The goal of this project is to develop an AI system that automatically extracts product features from Amazon large-scale product review dataset, performs sentiment analysis for each feature, prioritizes issues based on their frequency and severity and generates recommendations for which features to preserve and which to redesign. Building on this analysis, we will create an AI-powered dashboard that enables product teams to efficiently extract actionable insights from thousands of customer reviews, providing clear guidance for product development and improvement.
+#### The goal of this project is to develop an AI system that automatically extracts product features from [Amazon large-scale product review dataset](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023), performs sentiment analysis for each feature, prioritizes issues based on their frequency and severity and generates recommendations for which features to preserve and which to redesign. Building on this analysis, we will create an AI-powered dashboard that enables product teams to efficiently extract actionable insights from thousands of customer reviews, providing clear guidance for product development and improvement.
 
 Team Members
 - Dhruhi Sheth
